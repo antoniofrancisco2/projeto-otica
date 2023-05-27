@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px){
+        div#img {
+            margin-left: 25%;
+            background-image: url(../imagens/editada.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 31%;
+            height: 100%;
+        }
+
+        section#produt {
+            display: flex;
+            justify-content: center;
+        }
+        
+        div#pai {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        
+        article#produto {
+            border: 1px solid black;
+            padding: 5px;
+            width: 350px;
+            height: 300px;
+            margin: 10px;
+        }
+
+        /*
+        FALE-CONOSCO
+        */
+        section#fale {
+            background-color: rgb(1, 1, 29);
+            height: 73vh;
+        }
+        
+        section#fale > div > h1 {
+            color: white;
+            padding-top: 100px;
+            padding-bottom: 25px;
+            margin: 120px 0px 10px 0px;
+            text-align: center;
+            font-size: 3em;
+        }
+        
+        section#fale > p {
+            color: white;
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        
+        article#nosco {
+            display: flex;
+            justify-content: center;
+        }
+        
+        div#contato {
+        
+            width: 175px;
+            margin: 10px;
+            margin-right: 130px;
+        }
+        
+        div#contato h1 {
+            margin: 20px;
+            padding-left: 0px;
+            padding-right: 35px;
+            color: white;
+            font-size: 1.6em;
+        }
+        
+        div#contato span, i {
+            color: white;
+            font-size: 1.6em;
+            width: 40px;
+            padding-top: 0px;
+        }
+        
+        div#contato p {
+            color: white;
+            transform: translateY(-24px);
+        }
+        
+        /*
+        */
+        
+        div#redes {
+        
+            width: 340px;
+            margin: 10px;
+            margin-left: 120px;
+        }
+        
+        div#redes h1 {
+            margin: 12px;
+            margin-bottom: 30px;
+            padding-left: 0px;
+            padding-right: 43px;
+            color: white;
+            font-size: 1.6em;
+        
+        }
+        
+        div#redes p {
+            color: white;
+            padding-right: 183px;
+            transform: translateY(-24px);
+        }
+}

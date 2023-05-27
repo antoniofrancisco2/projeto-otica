@@ -1,0 +1,239 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(228, 218, 218);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section#comec {
+    background: linear-gradient(to bottom, rgb(44, 44, 44), rgb(1, 1, 20));
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+div#inici {
+    text-align: left;
+}
+
+div#inic h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 3em;
+}
+
+div#inic p {
+    font-size: 1.5em;
+}
+
+div#inic p, h1 {
+    margin-left: 60px;
+    padding: 3px;
+    color: white;
+}
+
+/*
+AREA DE PRODUTOS
+*/
+section#conteudo {
+    background-color: rgb(228, 218, 218);
+    height: 100vh;
+}
+
+section#conteudo h1 {
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 90px;
+    margin-bottom: 35px;
+    padding: 10px;
+}
+section#conteudo p {
+    color: black;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+section#produt {
+    display: flex;
+    justify-content: center;
+}
+
+article#produto {
+    border: 1px solid black;
+    padding: 5px;
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+}
+
+/*article#produto {
+    border: 1px solid black;
+    padding: 5px;
+    width: 350px;
+    height: 300px;
+    margin: 35px;
+}*/
+
+article#produto h1 {
+    margin: 7px;
+    padding: 5px;
+    font-size: 2em;
+}
+
+section#conteudo ul > li{
+    margin: 20px;
+}
+
+section#incluem {
+    margin-top: 30px;
+}
+
+article#incl p {
+    padding: 30px;
+    text-align: center;
+}
+
+div#list {
+    display: flex;
+    justify-content: center;
+}
+
+/*
+AREA DE QUEM SOMOS
+*/
+
+section#somos h1 {
+    font-size: 2.7em;
+    margin-top: 120px;
+}
+
+section#somos {
+    height: 100vh;
+}
+
+section#somos h1 {
+    text-align: center;
+    color: black;
+}
+
+/*div#sbr {   
+    display: flex;
+    justify-content: center;
+}*/
+
+article#filiais h1 {
+    margin: 120px 0px 10px 0px;
+    text-align: center;
+    font-size: 2em;
+}
+
+article#filiais p {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+article#atendimento h1 {
+    margin: 120px 0px 10px 0px;
+    text-align: center;
+    font-size: 2em;
+}
+
+article#atendimento p {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*
+FALE CONOSCO
+*/
+
+section#fale {
+    background-color: rgb(1, 1, 29);
+    height: 90vh;
+}
+
+section#fale > div > h1 {
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    margin: 120px 0px 10px 0px;
+    text-align: center;
+    font-size: 3em;
+}
+
+section#fale > p {
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+article#nosco {
+    display: flex;
+    justify-content: center;
+}
+
+div#contato {
+
+    width: 175px;
+    margin: 10px;
+    margin-right: 130px;
+}
+
+div#contato h1 {
+    margin: 20px;
+    padding-left: 0px;
+    padding-right: 35px;
+    color: white;
+    font-size: 1.3em;
+}
+
+div#contato span, i {
+    color: white;
+    font-size: 1.6em;
+    width: 40px;
+    padding-top: 0px;
+}
+
+div#contato p {
+    color: white;
+    transform: translateY(-24px);
+}
+
+/*
+*/
+
+div#redes {
+
+    width: 300px;
+    margin: 30px 0px 0px 0px;
+}
+
+div#redes h1 {
+    margin: 0px;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 43px;
+    color: white;
+    font-size: 1.3em;
+
+}
+
+div#redes p {
+    color: white;
+    padding-right: 140px;
+    transform: translateY(-24px);
+}
