@@ -190,7 +190,7 @@ div#contato {
 
     width: 175px;
     margin: 10px;
-    margin-right: 130px;
+    margin-right: 85px;
 }
 
 div#contato h1 {
@@ -210,7 +210,8 @@ div#contato span, i {
 
 div#contato p {
     color: white;
-    transform: translateY(-24px);
+    padding-left: 22px;
+    transform: translateY(-23px);
 }
 
 /*
@@ -226,7 +227,7 @@ div#redes h1 {
     margin: 0px;
     margin-bottom: 20px;
     padding-left: 0px;
-    padding-right: 43px;
+    padding-right: 87px;
     color: white;
     font-size: 1.3em;
 
@@ -234,6 +235,6 @@ div#redes h1 {
 
 div#redes p {
     color: white;
-    padding-right: 140px;
-    transform: translateY(-24px);
+    padding-right: 40%;
+    transform: translateY(-21px);
 }
