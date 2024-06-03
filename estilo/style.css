@@ -37,7 +37,7 @@ div#inic p {
 }
 
 div#inic p, h1 {
-    margin-left: 60px;
+    margin-left: 28px;
     padding: 3px;
     color: white;
 }
@@ -55,6 +55,7 @@ section#conteudo h1 {
     text-align: center;
     font-size: 2.6em;
     margin-top: 90px;
+    margin-left: 0;
     margin-bottom: 35px;
     
 }
@@ -119,17 +120,15 @@ AREA DE QUEM SOMOS
 */
 
 section#somos h1 {
-    font-size: 2.7em;
+    text-align: center;
+    font-size: 2.5em;
+    margin-left: 0;
     margin-top: 120px;
+    color: black;
 }
 
 section#somos {
     height: 100vh;
-}
-
-section#somos h1 {
-    text-align: center;
-    color: black;
 }
 
 /*div#sbr {   
@@ -193,9 +192,9 @@ article#nosco {
 
 div#contato {
 
-    width: 175px;
+    width: 195px;
     margin: 5px;
-    margin-left: 56px;
+    margin-left: 30px;
     margin-right: 44px;
 }
 
@@ -216,7 +215,7 @@ div#contato span, i {
 
 div#contato p {
     color: white;
-    padding-left: 15px;
+    padding-left: 22px;
     padding-bottom: 0;
     transform: translateY(-23px);
 }
@@ -230,10 +229,10 @@ div#redes {
 }
 
 div#redes h1 {
-    margin: 0px;
+    margin: 4px;
     margin-bottom: 20px;
     padding-left: 0px;
-    padding-right: 87px;
+    padding-right: 29px;
     color: white;
     font-size: 1.1em;
 
@@ -241,7 +240,7 @@ div#redes h1 {
 
 div#redes p {
     color: white;
-    padding-right: 35%;
+    padding-right: 20%;
     padding-bottom: 0;
     transform: translateY(-21px);
 }
